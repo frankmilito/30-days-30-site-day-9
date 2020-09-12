@@ -20,3 +20,17 @@ exit.addEventListener("click", function (e) {
     nav.style.width = "0";
     e.preventDefault();
 });
+// if (document.body.scrollWidth > 789) {
+//     menu.addEventListener("click", function (e) {
+//         // nav.classList.toggle("menu-items");
+//         nav.style.width = "25%";
+//         e.preventDefault();
+//     });
+if(document.body.pageYOffset>456){
+    const navbar= document.querySelector('.nav');
+    navbar.classList.toggle('toggleNav') 
+    console.log('windows height')
+}
+if(Math.floor(window.pageYOffset>534)){
+console.log('hello')
+}
