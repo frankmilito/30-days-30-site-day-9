@@ -198,6 +198,9 @@ header span{
     z-index: 1;
     transition: 300ms color ease-in-out;
 }
+.section2 .content2 .cards .card:hover i, h3, p{
+  color:#fff !important;
+}
 .section2 .content2 .cards .card:hover i{
   color:#fff;
 }
